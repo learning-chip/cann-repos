@@ -20,6 +20,12 @@ If you already cloned without submodules, or after `git pull`:
 git submodule update --init --recursive
 ```
 
+Track each submodule's latest commit on its configured branch (local only; does not update pinned SHAs in this repo):
+
+```bash
+git submodule update --remote --recursive
+```
+
 ## Submodules
 
 | Directory | Upstream |
