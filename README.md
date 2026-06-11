@@ -32,3 +32,15 @@ git submodule update --init --recursive
 | `asc-devkit` | https://gitcode.com/cann/asc-devkit.git |
 | `pto-isa` | https://gitcode.com/cann/pto-isa.git |
 | `cannbot-skills` | https://gitcode.com/cann/cannbot-skills.git |
+
+## Also relevant repos, not added as submodule yet
+
+| Repo | Upstream |
+|------|----------|
+| cann-recipes-train | https://gitcode.com/cann/cann-recipes-train |
+| torchtitan-npu | https://gitcode.com/cann/torchtitan-npu |
+| ops-math | https://gitcode.com/cann/ops-math |
+| ops-collections | https://gitcode.com/cann/ops-collections |
+| pytorch (Ascend) | https://gitcode.com/Ascend/pytorch |
+| vllm-ascend | https://github.com/vllm-project/vllm-ascend |
+| sgl-kernel-npu | https://github.com/sgl-project/sgl-kernel-npu |
