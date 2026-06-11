@@ -1,0 +1,24 @@
+[submodule "cann-recipes-infer"]
+	path = cann-recipes-infer
+	url = https://gitcode.com/cann/cann-recipes-infer.git
+[submodule "cann-samples"]
+	path = cann-samples
+	url = https://gitcode.com/cann/cann-samples.git
+[submodule "ops-transformer"]
+	path = ops-transformer
+	url = https://gitcode.com/cann/ops-transformer.git
+[submodule "ops-nn"]
+	path = ops-nn
+	url = https://gitcode.com/cann/ops-nn.git
+[submodule "op-plugin"]
+	path = op-plugin
+	url = https://gitcode.com/Ascend/op-plugin.git
+[submodule "asc-devkit"]
+	path = asc-devkit
+	url = https://gitcode.com/cann/asc-devkit.git
+[submodule "pto-isa"]
+	path = pto-isa
+	url = https://gitcode.com/cann/pto-isa.git
+[submodule "cannbot-skills"]
+	path = cannbot-skills
+	url = https://gitcode.com/cann/cannbot-skills.git
