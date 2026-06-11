@@ -17,7 +17,7 @@
 [submodule "op-plugin"]
 	path = op-plugin
 	url = https://gitcode.com/Ascend/op-plugin.git
-	branch = 7.3.0
+	branch = master
 [submodule "asc-devkit"]
 	path = asc-devkit
 	url = https://gitcode.com/cann/asc-devkit.git
