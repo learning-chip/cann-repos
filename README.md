@@ -37,6 +37,7 @@ git submodule update --init --recursive
 
 | Repo | Upstream |
 |------|----------|
+| catlass | https://gitcode.com/cann/catlass |
 | cann-recipes-train | https://gitcode.com/cann/cann-recipes-train |
 | torchtitan-npu | https://gitcode.com/cann/torchtitan-npu |
 | ops-math | https://gitcode.com/cann/ops-math |
