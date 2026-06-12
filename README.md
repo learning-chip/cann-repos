@@ -11,25 +11,27 @@ git lfs install   # after installing git-lfs (apt/brew)
 ## Clone
 
 ```bash
-git clone --recurse-submodules https://github.com/learning-chip/cann-repos.git
+git clone https://github.com/learning-chip/cann-repos.git
+cd cann-repos
+git submodule update --init
 ```
 
-If you already cloned without submodules, or after `git pull`:
+Clone nested submodules too (full recursive):
 
 ```bash
-git submodule update --init --recursive
+git clone --recurse-submodules https://github.com/learning-chip/cann-repos.git
 ```
 
 Track each submodule's latest commit on its configured branch (local only):
 
 ```bash
-git submodule update --remote --recursive
+git submodule update --remote
 ```
 
 Bump the pinned SHAs in this repo and commit:
 
 ```bash
-git submodule update --remote --recursive && git add -u && git commit -m "Bump submodule SHAs"
+git submodule update --remote && git add -u && git commit -m "Bump submodule SHAs"
 ```
 
 ## Submodules
